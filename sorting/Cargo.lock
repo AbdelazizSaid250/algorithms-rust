@@ -3,5 +3,17 @@
 version = 3
 
 [[package]]
+name = "bubble"
+version = "0.1.0"
+
+[[package]]
+name = "insertion"
+version = "0.1.0"
+
+[[package]]
+name = "selection"
+version = "0.1.0"
+
+[[package]]
 name = "sorting"
 version = "0.1.0"
