@@ -10,15 +10,15 @@ fn main() {
 
 fn insertion_sort(arr: &mut [i64], len: usize) {
     let mut value ;
-    let mut hole;
+    let mut index;
 
     for i in 1..len {
         value = arr[i];
-        hole = i;
-        while hole > 0 && arr[hole - 1] > value {
-            arr[hole] = arr[hole - 1];
-            hole = hole - 1;
+        index = i;
+        while index > 0 && arr[index - 1] > value {
+            arr[index] = arr[index - 1];
+            index = index - 1;
         }
-        arr[hole] = value;
+        arr[index] = value;
     }
 }
