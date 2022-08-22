@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sorting/bubble/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sorting/insertion/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sorting/merge/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/sorting/target" />
     </content>
