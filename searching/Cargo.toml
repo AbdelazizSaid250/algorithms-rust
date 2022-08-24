@@ -1,7 +1,6 @@
 [package]
-name = "merge"
+name = "searching"
 version = "0.1.0"
-authors = ["Abdelaziz Said <abdelazizsaid250@gmail.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

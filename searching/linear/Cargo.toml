@@ -1,5 +1,5 @@
 [package]
-name = "merge"
+name = "linear"
 version = "0.1.0"
 authors = ["Abdelaziz Said <abdelazizsaid250@gmail.com>"]
 edition = "2021"

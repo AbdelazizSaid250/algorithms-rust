@@ -9,4 +9,4 @@ edition = "2021"
 
 
 [workspace]
-members = ["selection", "bubble", "insertion", "merge"]
+members = ["selection", "bubble", "insertion", "merge", "quick"]
