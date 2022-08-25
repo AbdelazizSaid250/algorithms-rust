@@ -1,15 +1,15 @@
 fn main() {
     let array = [1, 3, 4, 5, 7, 9];
-    let searched_num = 9;
+    let searched_num = 7;
 
     let found_index =
-        binary_search_iterative(&array, searched_num, 0, array.len() as i32);
+        binary_search_iterative(&array, searched_num, 0, array.len() as i32 - 1);
 
     println!("The Element has been found at the index: {}", found_index)
 }
 
 fn binary_search_iterative(array: &[i32], searched_num: i32, mut start_index: i32, mut end_index: i32) -> i32 {
-    while start_index < end_index {
+    while start_index <= end_index {
         let middle_index = (start_index + end_index) / 2;
 
         if searched_num == array[middle_index as usize] {
@@ -20,7 +20,7 @@ fn binary_search_iterative(array: &[i32], searched_num: i32, mut start_index: i3
             start_index = middle_index + 1;
         }
     }
-    return -1;
+    -1
 }
 
 fn binary_search_recursion(array: &[i32], searched_num: i32, start_index: i32, end_index: i32) -> i32 {
