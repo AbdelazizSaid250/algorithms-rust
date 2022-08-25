@@ -1,6 +1,6 @@
 fn main() {
     let array = [1, 3, 4, 5, 7, 9];
-    let searched_num = 7;
+    let searched_num = 9;
 
     let found_index =
         binary_search_iterative(&array, searched_num, 0, array.len() as i32 - 1);
@@ -33,7 +33,7 @@ fn binary_search_recursion(array: &[i32], searched_num: i32, start_index: i32, e
     return if searched_num == array[middle_index as usize] {
         middle_index
     } else if searched_num < array[middle_index as usize] {
-        binary_search_recursion(array, searched_num, start_index, middle_index - 1)
+        binary_search_recursion(array, searched_num, start_index, middle_index)
     } else if searched_num > array[middle_index as usize] {
         binary_search_recursion(array, searched_num, middle_index + 1, end_index)
     } else {
