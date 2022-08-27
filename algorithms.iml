@@ -10,14 +10,18 @@
       <sourceFolder url="file://$MODULE_DIR$/sorting/insertion/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sorting/merge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/searching/binary/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/searching/jump/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/searching/linear/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/searching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/searching/ternary/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sorting/quick/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/sorting/target" />
       <excludeFolder url="file://$MODULE_DIR$/searching/target" />
       <excludeFolder url="file://$MODULE_DIR$/searching/binary/target" />
       <excludeFolder url="file://$MODULE_DIR$/searching/linear/target" />
+      <excludeFolder url="file://$MODULE_DIR$/searching/ternary/target" />
+      <excludeFolder url="file://$MODULE_DIR$/searching/jump/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
